@@ -43,24 +43,24 @@ const worldCup = [
 
 app.get("/", (request, response) => {
     response.send('Welcome to Backend Class')
-    console.log('Welcome to my Backend Class');
     
 
     
 });
-app.get("/hurray", (request, response) => {
-    response.send('I built my first API')
-    // console.log('Welcome to my Backend Class');
-    
-
-    
-});
-app.listen(port, () => {
-    console.log(`My first backend class ${port}`);
-    
-
-})
 
 app.get("/worldcup", (request, response) => {
     response.send(worldCup)
 });
+
+app.get("/hurray", (request, response) => {
+    response.send('I built my first API')
+    
+
+    
+});
+
+app.listen(port, () => {
+    console.log(`Listening on ${port}`);
+    
+
+})
