@@ -41,7 +41,7 @@ const worldCup = [
 ]
 
 
-app.get('/home', (request, response) => {
+app.get('/', (request, response) => {
     response.send('Welcome to Backend Class')
     console.log('Welcome to my Backend Class');
     
