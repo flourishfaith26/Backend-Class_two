@@ -48,13 +48,12 @@ app.get('/home', (request, response) => {
 
     
 });
+app.listen(port, () => {
+    console.log(`My first backend class ${port}`);
+    
+
+})
 
 app.get('/worldcup', (request, response) => {
     response.send(worldCup)
 });
-
-app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
-    
-
-})
