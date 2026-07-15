@@ -8,6 +8,7 @@ const worldCup = [
         Coach: "Finidi George"
     },
     
+    
     {
         Country: "England",
         Player: "Harry Kane",
